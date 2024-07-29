@@ -32,7 +32,7 @@ const FrameComponent1 = ({ className = "" }) => {
           <nav className={styles.headings}>
             <a className={styles.headingProduct}>Product</a>
             <a className={styles.headingFeatures}
-              onClick={onHeadingPricingTextClick}
+              onClick={onHeadingTextClick}
             >
               Features
             </a>
