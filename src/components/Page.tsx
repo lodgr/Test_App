@@ -1,11 +1,36 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useCallback } from "react";
 import styles from "./Page.module.css";
+import { useNavigate } from "react-router-dom";
 
 export type Page4Type = {
   className?: string;
 };
 
 const Page4: FunctionComponent<Page4Type> = ({ className = "" }) => {
+  const navigate = useNavigate();
+
+  const onFrameButtonClick = useCallback(() => {
+    navigate("/contact-confirm");
+  }, [navigate]);
+
+  const onHeadingContactTextClick = useCallback(() => {
+    navigate("/contact");
+  }, [navigate]);
+
+  const onHeadingFeaturesTextClick = useCallback(() => {
+    const anchor = document.querySelector("[data-scroll-to='page2']");
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onHeadingPricingTextClick = useCallback(() => {
+    const anchor = document.querySelector("[data-scroll-to='page3']");
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <section
       className={[styles.page4, className].join(" ")}
@@ -32,7 +57,8 @@ const Page4: FunctionComponent<Page4Type> = ({ className = "" }) => {
               <div className={styles.inputPlaceholderWrapper}>
                 <div className={styles.inputPlaceholder}>Enter your email</div>
               </div>
-              <button className={styles.masterPrimaryButton}>
+              <button className={styles.masterPrimaryButton}
+               onClick={onFrameButtonClick}>
                 <b className={styles.buttonText}>Suscribe</b>
                 <img
                   className={styles.lineRoundedarrowRight}
@@ -70,7 +96,9 @@ const Page4: FunctionComponent<Page4Type> = ({ className = "" }) => {
                     alt=""
                     src="/line-roundedpassword.svg"
                   />
-                  <div className={styles.features}>Features</div>
+                  <div className={styles.features}
+                  onClick={onHeadingFeaturesTextClick}
+                  >Features</div>
                   <img
                     className={styles.lineRoundedpasswordIcon}
                     alt=""
@@ -85,7 +113,8 @@ const Page4: FunctionComponent<Page4Type> = ({ className = "" }) => {
                     alt=""
                     src="/line-roundedpassword.svg"
                   />
-                  <a className={styles.pricing}>Pricing</a>
+                  <a className={styles.pricing}
+                  onClick={onHeadingPricingTextClick}>Pricing</a>
                   <img
                     className={styles.lineRoundedpasswordIcon}
                     alt=""
@@ -132,7 +161,8 @@ const Page4: FunctionComponent<Page4Type> = ({ className = "" }) => {
                     alt=""
                     src="/line-roundedpassword.svg"
                   />
-                  <a className={styles.contactUs}>Contact us</a>
+                  <a className={styles.contactUs}
+                  onClick={onHeadingContactTextClick}>Contact us</a>
                   <img
                     className={styles.lineRoundedpasswordIcon}
                     alt=""

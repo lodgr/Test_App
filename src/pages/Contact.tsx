@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import ContactInfo from "../components/ContactInfo";
-import Page4 from "../components/Page4";
+import Page4 from "../components/Page";
 import styles from "./Contact.module.css";
 
 const Contact: FunctionComponent = () => {

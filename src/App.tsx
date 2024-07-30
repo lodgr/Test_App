@@ -4,6 +4,7 @@ import {
   Route,
   useNavigationType,
   useLocation,
+  Navigate, // Added this import
 } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Website from "./pages/Website";
@@ -26,16 +27,24 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Website - Lodgr"; // Updated title and metaDescription
+        metaDescription = "Learn more about Lodgr's website features.";
         break;
       case "/website":
-        title = "";
-        metaDescription = "";
+        title = "Website - Lodgr"; // Updated title and metaDescription
+        metaDescription = "Learn more about Lodgr's website features.";
         break;
       case "/contact-confirm":
-        title = "";
-        metaDescription = "";
+        title = "Contact Confirm - Lodgr"; // Updated title and metaDescription
+        metaDescription = "Thank you for getting in touch with Lodgr.";
+        break;
+      case "/contact":
+        title = "Contact - Lodgr"; // Updated title and metaDescription
+        metaDescription = "Get in touch with Lodgr.";
+        break;
+      default: // Added default case
+        title = "Lodgr";
+        metaDescription = "Welcome to Lodgr, your ultimate lodging solution.";
         break;
     }
 
@@ -44,21 +53,27 @@ function App() {
     }
 
     if (metaDescription) {
-      const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
-        'head > meta[name="description"]',
+      let metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
+        'head > meta[name="description"]'
       );
-      if (metaDescriptionTag) {
-        metaDescriptionTag.content = metaDescription;
+      if (!metaDescriptionTag) { // Ensure meta tag creation
+        metaDescriptionTag = document.createElement("meta");
+        metaDescriptionTag.name = "description";
+        document.head.appendChild(metaDescriptionTag);
       }
+      metaDescriptionTag.content = metaDescription;
     }
   }, [pathname]);
 
   return (
     <Routes>
-      <Route path="/" element={<Contact />} />
+      <Route path="/" element={<Navigate to="/website" replace />} /> // Updated route
       <Route path="/website" element={<Website />} />
       <Route path="/contact-confirm" element={<ContactConfirm />} />
+      <Route path="/contact" element={<Contact />} /> // Added route for contact
+      <Route path="*" element={<Navigate to="/website" replace />} /> // Added wildcard route
     </Routes>
   );
 }
+
 export default App;

@@ -7,6 +7,7 @@
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
+  color: white;
 }
 .aSoftwareToolToAutomateYoWrapper {
   align-self: stretch;
@@ -21,9 +22,11 @@
 .ourCuttingEdgeAi {
   margin-block-start: 0;
   margin-block-end: 10px;
+  color: white;
 }
 .allowingYouSit {
-  margin: 0;
+  margin-bottom: 20px;
+  color: white;
 }
 .ourCuttingEdgeAiContainer {
   align-self: stretch;
@@ -134,11 +137,12 @@
   max-width: 100%;
 }
 .turnGuestReviews {
-  margin: 0;
+  margin-bottom: 20px;
   position: relative;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
+  color: white;
 }
 .goThroughGuestContainer {
   flex: 1;
@@ -197,7 +201,9 @@
   line-height: 20px;
   font-weight: 400;
   font-family: inherit;
+  color: white;
 }
+
 .trackOpenNightsContainer1 {
   width: 100%;
 }
@@ -210,6 +216,7 @@
   display: flex;
   align-items: center;
   max-width: 100%;
+  margin-top: -50px;
 }
 .convertAvailabilityToBookinParent {
   align-self: stretch;
@@ -279,6 +286,7 @@
   display: flex;
   align-items: center;
   max-width: 100%;
+  color: white;
 }
 .suggestLocalRestaurantsContainer {
   align-self: stretch;

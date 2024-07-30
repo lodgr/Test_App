@@ -10,7 +10,7 @@ const Page11: FunctionComponent<Page11Type> = ({ className = "" }) => {
   const navigate = useNavigate();
 
   const onFrameButtonClick = useCallback(() => {
-    navigate("/");
+    navigate("/contact");
   }, [navigate]);
 
   return (

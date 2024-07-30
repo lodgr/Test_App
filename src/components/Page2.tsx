@@ -7,7 +7,8 @@ export type Page2Type = {
 
 const Page2: FunctionComponent<Page2Type> = ({ className = "" }) => {
   return (
-    <section className={[styles.page2, className].join(" ")}>
+    <section className={[styles.page2, className].join(" ")}
+    data-scroll-to="page2">
       <div className={styles.softwareDescriptionContainerWrapper}>
         <div className={styles.softwareDescriptionContainer}>
           <div className={styles.aSoftwareToolToAutomateYoWrapper}>
@@ -88,8 +89,13 @@ const Page2: FunctionComponent<Page2Type> = ({ className = "" }) => {
           <div className={styles.frameWrapper}>
             <div className={styles.convertAvailabilityToBookinParent}>
               <h1 className={styles.convertAvailabilityTo}>
-                Convert availability to booking
-              </h1>
+                  <span>
+                    <p className={styles.convertAvailability}>
+                      Convert Availability into
+                    </p>
+                    <p className={styles.tobooking}>booking</p>
+                  </span>
+                </h1>
               <div className={styles.trackOpenNightsContainer}>
                 <span className={styles.trackOpenNightsContainer1}>
                   <p

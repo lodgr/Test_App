@@ -39,6 +39,7 @@
   line-height: 46px;
   font-weight: 700;
   font-family: inherit;
+  color: white;
 }
 .headingWrapper {
   width: 476px;
@@ -151,6 +152,7 @@
   font-family: inherit;
   display: inline-block;
   min-width: 102px;
+  color: white;
 }
 .footerTitle {
   position: relative;

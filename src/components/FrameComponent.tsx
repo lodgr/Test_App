@@ -13,9 +13,23 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
 }) => {
   const navigate = useNavigate();
 
-  const onHeadingFeaturesTextClick = useCallback(() => {
+  const onHeadingLogoTextClick = useCallback(() => {
     navigate("/website");
   }, [navigate]);
+
+  const onHeadingFeaturesTextClick = useCallback(() => {
+    const anchor = document.querySelector("[data-scroll-to='page2']");
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onHeadingPricingTextClick = useCallback(() => {
+    const anchor = document.querySelector("[data-scroll-to='page3']");
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
 
   const onHeadingResourcesTextClick = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='page4']");
@@ -28,12 +42,15 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
     <header
       className={[styles.outputOnlinepngtools1Parent, className].join(" ")}
     >
+      <div onClick={onHeadingLogoTextClick}>
       <img
         className={styles.outputOnlinepngtools1Icon}
         loading="lazy"
         alt=""
         src={outputOnlinepngtools1}
+        
       />
+      </div>
       <div className={styles.frameWrapper}>
         <div className={styles.headingsParent}>
           <nav className={styles.headings}>
@@ -45,7 +62,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
             </a>
             <a
               className={styles.headingPricing}
-              onClick={onHeadingFeaturesTextClick}
+              onClick={onHeadingPricingTextClick}
             >
               Pricing
             </a>
