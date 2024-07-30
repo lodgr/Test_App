@@ -1,430 +1,146 @@
-.automateEverythingOn {
-  margin: 0;
-}
-.automateEverythingOnContainer {
-  margin: 0;
-  align-self: stretch;
+.outputOnlinepngtools1Icon {
+  height: 58.5px;
+  width: 114px;
   position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  display: flex;
-  width: auto;
-  height: auto;
+  object-fit: contain;
+  z-index: 1;
 }
-.automateEverythingOnContainer:hover {
+.headingFeatures {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   font-weight: 700;
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-45xl);
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 21px;
+  min-width: 72px;
+  cursor: pointer;
+}
+.headingPricing {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 143px;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 21px;
+  min-width: 55px;
+  cursor: pointer;
+}
+.headingResources {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 268px;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 21px;
+  min-width: 84px;
+  cursor: pointer;
+}
+.headings {
+  margin: 0;
+  height: 21px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
   text-align: center;
-  color: var(--color-white);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
+  font-size: var(--text-single-uppercase-100-bold-size);
+  color: var(--color-black);
+  font-family: var(--text-single-200-regular);
 }
-.deliverExceptionalCustomer {
-  width: 612px;
+.emailIcon {
+  align-self: stretch;
+  width: 33px;
   position: relative;
+  max-height: 100%;
+  min-height: 27px;
+}
+.headingResources1 {
+  text-decoration: none;
+  width: 84px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  max-width: 100%;
-  font-weight: 700;
-  height: auto;
+  white-space: nowrap;
 }
-.deliverExceptionalCustomer:hover {
-  font-weight: 700;
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-5xl);
-  text-align: center;
-  color: var(--color-white);
+.emailParent {
+  width: 171px;
   display: flex;
-  width: 612px;
-  height: auto;
-  max-width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
 }
-.deliverExceptionalCustomerCWrapper {
+.headingsParent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
-  padding: 0px var(--padding-xl) 0px var(--padding-2xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-  font-size: var(--font-size-5xl);
-}
-.deliverExceptionalCustomerCWrapper:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: center;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-xl) 0px var(--padding-2xl);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.automateEverythingOnYourHoParent {
-  width: 957px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-start;
-  gap: var(--gap-3xs);
-  max-width: 100%;
-  height: auto;
-  transform: rotate(0deg);
-}
-.automateEverythingOnYourHoParent:hover {
-  display: flex;
-  width: 957px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-3xs);
-  align-items: flex-end;
-  justify-content: flex-start;
-  transform: rotate(0deg);
+  gap: var(--gap-52xl);
   max-width: 100%;
 }
 .frameWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px var(--padding-2xl) var(--padding-6xl) var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-}
-.frameWrapper:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: center;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-2xl) var(--padding-6xl) var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.enterYourEmail {
-  position: relative;
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-}
-.enterYourEmail:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--text-single-uppercase-100-bold-size);
-  text-align: center;
-  color: var(--color-gray);
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-}
-.enterYourEmailAdressWrapper {
+  width: 594px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-base) 0px 0px;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-mini-5);
   box-sizing: border-box;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
+  max-width: 100%;
 }
-.enterYourEmailAdressWrapper:hover {
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  padding: var(--padding-base) 0px 0px;
-  box-sizing: border-box;
-}
-.getInTouch {
-  flex: 1;
-  position: relative;
-  font-size: var(--font-size-5xl);
-  font-family: var(--text-single-200-regular);
-  color: var(--color-black);
-  text-align: center;
-  display: flex;
-  height: auto;
-}
-.getInTouch:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-5xl);
-  text-align: center;
-  color: var(--color-black);
-  display: flex;
-  flex: 1;
-  height: auto;
-}
-.getInTouchWrapper {
-  cursor: pointer;
-  border: none;
-  padding: var(--padding-2xs) var(--padding-mid) var(--padding-xs)
-    var(--padding-lg);
-  background-color: var(--color-sienna);
-  flex: 1;
-  border-radius: var(--br-11xl);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  min-width: 115;
-  white-space: nowrap;
-  height: auto;
-  gap: var(--gap-0);
-}
-.getInTouchWrapper:hover {
-  background-color: var(--color-lightsalmon);
-  display: flex;
-  flex: 1;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-radius: var(--br-11xl);
-  padding: var(--padding-2xs) var(--padding-mid) var(--padding-xs)
-    var(--padding-lg);
-  box-sizing: border-box;
-  min-width: 115;
-  white-space: nowrap;
-}
-.getInTouchWrapper:active {
-  background-color: var(--color-sienna);
-}
-.frameDiv {
-  align-self: stretch;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-white);
+.outputOnlinepngtools1Parent {
+  width: 1530px;
+  background-color: var(--color-gainsboro-200);
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0px 0px 0px var(--padding-mini);
-  box-sizing: border-box;
-  gap: var(--gap-38xl);
-  width: auto;
-  height: auto;
-}
-.frameDiv:hover {
-  background-color: var(--color-white);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-38xl);
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-radius: var(--br-11xl);
-  padding: 0px 0px 0px var(--padding-mini);
-  box-sizing: border-box;
-}
-.comingSoon {
-  position: relative;
-  display: flex;
-  min-width: 116;
-  width: auto;
-  align-self: unset;
-  height: auto;
-}
-.comingSoon:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--text-single-200-regular-size);
-  text-align: center;
-  color: var(--color-white);
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  min-width: 116;
-}
-.comingSoonWrapper {
-  width: 400px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-  font-size: var(--text-single-200-regular-size);
-  color: var(--color-white);
-}
-.comingSoonWrapper:hover {
-  display: flex;
-  width: 400px;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: center;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.frameGroup {
-  width: 433px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-37xl);
-  max-width: 100%;
-  height: auto;
-  transform: rotate(0deg);
-}
-.frameGroup:hover {
-  display: flex;
-  width: 433px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-37xl);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.frameContainer {
-  width: 1339px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-  font-size: var(--text-single-uppercase-100-bold-size);
-  color: var(--color-gray);
-}
-.frameContainer:hover {
-  display: flex;
-  width: 1339px;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: center;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.frameChild {
-  align-self: stretch;
-  height: 753.4px;
-  position: relative;
-  border-radius: var(--br-xl);
-  max-width: 100%;
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-  background: linear-gradient(180deg, rgba(14, 46, 35, 0) 96.95%, #0e2e23);
-  display: flex;
-  width: auto;
-  gap: var(--gap-0);
-  border: 25px solid var(--color-silver);
-  box-sizing: border-box;
-}
-.frameChild:hover {
-  background: linear-gradient(180deg, rgba(14, 46, 35, 0) 96.95%, #0e2e23);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: 753.4px;
-  gap: var(--gap-0);
-  border-radius: var(--br-xl);
-  border: 25px solid var(--color-silver);
-  box-sizing: border-box;
-}
-.frameParent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-start;
-  gap: var(--gap-58xl);
-  max-width: 100%;
-  height: auto;
-  transform: rotate(0deg);
-}
-.frameParent:hover {
-  display: flex;
-  flex: 1;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-58xl);
-  align-items: flex-end;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.page1Inner {
-  width: 1530px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0px var(--padding-60xl);
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-14xl) var(--padding-xs-5)
+    var(--padding-60xl);
   box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
   max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
   text-align: center;
-  font-size: var(--font-size-45xl);
-  color: var(--color-white);
+  font-size: var(--text-single-300-bold-size);
+  color: var(--color-black);
   font-family: var(--text-single-200-regular);
 }
-.page1Inner:hover {
-  display: flex;
-  width: 1530px;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-60xl);
-  box-sizing: border-box;
-  max-width: 100%;
+
+@media screen and (max-width: 800px) {
+  .headingsParent {
+    gap: var(--gap-16xl);
+  }
+
+  .outputOnlinepngtools1Parent {
+    padding-left: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .headingsParent {
+    gap: var(--gap-lg);
+  }
 }

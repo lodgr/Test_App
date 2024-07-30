@@ -5,7 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Contact from "./pages/Contact";
 import Website from "./pages/Website";
+import ContactConfirm from "./pages/ContactConfirm";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +29,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/website":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/contact-confirm":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -34,7 +44,7 @@ function App() {
     }
 
     if (metaDescription) {
-      const metaDescriptionTag = document.querySelector(
+      const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
         'head > meta[name="description"]',
       );
       if (metaDescriptionTag) {
@@ -45,7 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Website />} />
+      <Route path="/" element={<Contact />} />
+      <Route path="/website" element={<Website />} />
+      <Route path="/contact-confirm" element={<ContactConfirm />} />
     </Routes>
   );
 }

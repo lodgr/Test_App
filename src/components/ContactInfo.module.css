@@ -1,0 +1,270 @@
+.touch {
+  color: var(--color-seagreen);
+}
+.getInTouchContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.getInTouchWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.name {
+  width: 53px;
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.textFieldChild {
+  height: 6px;
+  width: 12px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+}
+.textField {
+  align-self: stretch;
+  border: 1px solid var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.email {
+  width: 41px;
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  color: var(--gray-3);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.phoneNumber {
+  width: 119px;
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.dropdown {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.send {
+  position: relative;
+  font-size: var(--text-single-uppercase-100-bold-size);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  text-align: left;
+  min-width: 48px;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--color-seagreen);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-mediumaquamarine);
+}
+.formFields {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.fieldsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.detailItemsIcon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.phone {
+  margin: 0;
+  font-weight: 600;
+}
+.p {
+  margin: 0;
+  color: var(--color-seagreen);
+}
+.phone035432Container {
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  display: inline-block;
+}
+.detailItemsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.emailInfomarcccomau {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.contactDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  font-size: var(--font-size-smi);
+}
+.formContainer {
+  width: 545px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.contactUs {
+  width: 758px;
+  box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.3);
+  border-radius: var(--br-31xl);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-59xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactUsWrapper {
+  width: 1530px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactInfo {
+  background: linear-gradient(180deg, #2d8062, #355c4f);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-76xl);
+  box-sizing: border-box;
+  gap: var(--gap-90xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+
+@media screen and (max-width: 1150px) {
+  .contactInfo {
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .getInTouchContainer {
+    font-size: var(--font-size-24xl);
+  }
+
+  .fieldsContainer {
+    gap: var(--gap-xl);
+  }
+
+  .contactDetails {
+    flex-wrap: wrap;
+    gap: var(--gap-6xl);
+  }
+
+  .formContainer {
+    gap: var(--gap-11xl);
+  }
+
+  .contactUs {
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+
+  .contactInfo {
+    gap: var(--gap-35xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouchContainer {
+    font-size: var(--font-size-13xl);
+  }
+
+  .contactInfo {
+    gap: var(--gap-8xl);
+  }
+}

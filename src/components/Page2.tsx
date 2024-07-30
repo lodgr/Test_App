@@ -1,11 +1,15 @@
-import PropTypes from "prop-types";
+import { FunctionComponent } from "react";
 import styles from "./Page2.module.css";
 
-const Page2 = ({ className = "" }) => {
+export type Page2Type = {
+  className?: string;
+};
+
+const Page2: FunctionComponent<Page2Type> = ({ className = "" }) => {
   return (
     <section className={[styles.page2, className].join(" ")}>
-      <div className={styles.page2Inner}>
-        <div className={styles.frameParent}>
+      <div className={styles.softwareDescriptionContainerWrapper}>
+        <div className={styles.softwareDescriptionContainer}>
           <div className={styles.aSoftwareToolToAutomateYoWrapper}>
             <h1
               className={styles.aSoftwareTool}
@@ -22,11 +26,11 @@ const Page2 = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className={styles.page2Child}>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameWrapper}>
-            <div className={styles.frameContainer}>
-              <div className={styles.answerGuestsUsingConversatiWrapper}>
+      <div className={styles.featuresGrid}>
+        <div className={styles.bookingFeatures}>
+          <div className={styles.bookingFeatureItems}>
+            <div className={styles.conversionFeatureItems}>
+              <div className={styles.bookingConversionItem}>
                 <h1 className={styles.answerGuestsUsingContainer}>
                   <span>
                     <p className={styles.ourCuttingEdgeAi}>
@@ -51,19 +55,19 @@ const Page2 = ({ className = "" }) => {
           />
         </div>
       </div>
-      <div className={styles.reviewTasks1Parent}>
+      <div className={styles.featuresGrid1}>
         <img
           className={styles.reviewTasks1}
           loading="lazy"
           alt=""
           src="/review-tasks-1@2x.png"
         />
-        <div className={styles.frameDiv}>
-          <div className={styles.turnGuestReviewsIntoTasksParent}>
+        <div className={styles.reviewFeatures}>
+          <div className={styles.reviewFeatureItems}>
             <h1 className={styles.turnGuestReviews}>
               Turn guest reviews into tasks
             </h1>
-            <div className={styles.goThroughGuestReviewsImmedWrapper}>
+            <div className={styles.reviewInsightsFeatureItem}>
               <div className={styles.goThroughGuestContainer}>
                 <p className={styles.ourCuttingEdgeAi}>
                   Go through guest reviews immediately after a checkout
@@ -79,9 +83,9 @@ const Page2 = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className={styles.page2Inner1}>
-        <div className={styles.frameParent1}>
-          <div className={styles.frameWrapper1}>
+      <div className={styles.featuresGrid2}>
+        <div className={styles.frameParent}>
+          <div className={styles.frameWrapper}>
             <div className={styles.convertAvailabilityToBookinParent}>
               <h1 className={styles.convertAvailabilityTo}>
                 Convert availability to booking
@@ -106,15 +110,15 @@ const Page2 = ({ className = "" }) => {
           />
         </div>
       </div>
-      <div className={styles.page2Inner2}>
-        <div className={styles.frameGroup}>
+      <div className={styles.localExperienceContainerWrapper}>
+        <div className={styles.localExperienceContainer}>
           <img
             className={styles.local1Icon}
             loading="lazy"
             alt=""
             src="/local-1@2x.png"
           />
-          <div className={styles.frameWrapper2}>
+          <div className={styles.experienceDescriptionContain}>
             <div className={styles.enhanceGuestExperiencesParent}>
               <h1 className={styles.enhanceGuestExperiences}>
                 Enhance Guest Experiences
@@ -133,10 +137,6 @@ const Page2 = ({ className = "" }) => {
       </div>
     </section>
   );
-};
-
-Page2.propTypes = {
-  className: PropTypes.string,
 };
 
 export default Page2;

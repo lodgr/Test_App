@@ -5,18 +5,7 @@
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
-  display: flex;
-  max-width: 100%;
-  height: auto;
-}
-.aSoftwareTool:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--headings-h2-size);
-  text-align: center;
-  color: var(--color-white);
-  display: flex;
-  flex: 1;
-  height: auto;
+  display: inline-block;
   max-width: 100%;
 }
 .aSoftwareToolToAutomateYoWrapper {
@@ -25,24 +14,6 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px var(--padding-4xl) 0px var(--padding-3xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-}
-.aSoftwareToolToAutomateYoWrapper:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
   padding: 0px var(--padding-4xl) 0px var(--padding-3xl);
   box-sizing: border-box;
   max-width: 100%;
@@ -58,21 +29,8 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-3xl);
-  display: flex;
-  width: auto;
-  height: auto;
 }
-.ourCuttingEdgeAiContainer:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-3xl);
-  text-align: center;
-  color: var(--color-white);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-}
-.frameParent {
+.softwareDescriptionContainer {
   width: 831px;
   display: flex;
   flex-direction: column;
@@ -80,21 +38,8 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
   max-width: 100%;
-  height: auto;
-  transform: rotate(0deg);
 }
-.frameParent:hover {
-  display: flex;
-  width: 831px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-8xs);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.page2Inner {
+.softwareDescriptionContainerWrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -103,30 +48,12 @@
   padding: 0px 0px var(--padding-12xl);
   box-sizing: border-box;
   max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
   font-size: var(--headings-h2-size);
-}
-.page2Inner:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: center;
-  transform: rotate(0deg);
-  padding: 0px 0px var(--padding-12xl);
-  box-sizing: border-box;
-  max-width: 100%;
 }
 .answerGuestsUsingContainer {
   margin-bottom: -2px;
   margin: 0;
-  height: auto;
+  height: 130px;
   position: relative;
   font-size: inherit;
   font-weight: 400;
@@ -134,44 +61,12 @@
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  width: auto;
-  align-self: unset;
 }
-.answerGuestsUsingContainer:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-27xl);
-  text-align: left;
-  color: var(--color-white);
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  flex-shrink: 0;
-}
-.answerGuestsUsingConversatiWrapper {
+.bookingConversionItem {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px 0px 0px;
-  box-sizing: border-box;
-  max-width: 100%;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-}
-.answerGuestsUsingConversatiWrapper:hover {
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
   padding: 0px 0px 0px;
   box-sizing: border-box;
   max-width: 100%;
@@ -180,23 +75,9 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-3xl);
-  display: flex;
-  flex-shrink: 0;
-  width: auto;
-  height: auto;
-}
-.beItPhone:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-3xl);
-  text-align: left;
-  color: var(--color-white);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
   flex-shrink: 0;
 }
-.frameContainer {
+.conversionFeatureItems {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -204,25 +85,8 @@
   justify-content: flex-start;
   flex-shrink: 0;
   max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
 }
-.frameContainer:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  flex-shrink: 0;
-  max-width: 100%;
-}
-.frameWrapper {
+.bookingFeatureItems {
   width: 628px;
   display: flex;
   flex-direction: column;
@@ -230,24 +94,7 @@
   justify-content: flex-start;
   padding: var(--padding-33xl) 0px 0px;
   box-sizing: border-box;
-  min-width: 628;
-  max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-}
-.frameWrapper:hover {
-  display: flex;
-  width: 628px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  padding: var(--padding-33xl) 0px 0px;
-  box-sizing: border-box;
-  min-width: 628;
+  min-width: 628px;
   max-width: 100%;
 }
 .service1Icon {
@@ -258,16 +105,8 @@
   object-fit: cover;
   flex-shrink: 0;
   max-width: 100%;
-  display: flex;
 }
-.service1Icon:hover {
-  display: flex;
-  width: 527.7px;
-  border-radius: var(--br-xl);
-  flex-shrink: 0;
-  max-width: 100%;
-}
-.frameGroup {
+.bookingFeatures {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -275,21 +114,8 @@
   justify-content: space-between;
   max-width: 100%;
   gap: var(--gap-xl);
-  height: auto;
-  transform: rotate(0deg);
 }
-.frameGroup:hover {
-  display: flex;
-  flex: 1;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-xl);
-  align-items: flex-start;
-  justify-content: space-between;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.page2Child {
+.featuresGrid {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -298,37 +124,13 @@
   padding: 0px var(--padding-10xs);
   box-sizing: border-box;
   max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
   text-align: left;
-}
-.page2Child:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-end;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-10xs);
-  box-sizing: border-box;
-  max-width: 100%;
 }
 .reviewTasks1 {
   width: 608px;
   position: relative;
   max-height: 100%;
   object-fit: cover;
-  max-width: 100%;
-  display: flex;
-}
-.reviewTasks1:hover {
-  display: flex;
-  width: 608px;
   max-width: 100%;
 }
 .turnGuestReviews {
@@ -337,43 +139,16 @@
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-}
-.turnGuestReviews:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-27xl);
-  text-align: center;
-  color: var(--color-white);
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
 }
 .goThroughGuestContainer {
   flex: 1;
   position: relative;
   letter-spacing: 0.1px;
   line-height: 20px;
-  display: flex;
-  max-width: 100%;
-  height: auto;
-}
-.goThroughGuestContainer:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-3xl);
-  letter-spacing: 0.1px;
-  line-height: 20px;
-  text-align: right;
-  color: var(--color-white);
-  display: flex;
-  flex: 1;
-  height: auto;
+  display: inline-block;
   max-width: 100%;
 }
-.goThroughGuestReviewsImmedWrapper {
+.reviewInsightsFeatureItem {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -382,52 +157,18 @@
   padding: 0px var(--padding-10xs) 0px var(--padding-7xs);
   box-sizing: border-box;
   max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
   text-align: right;
   font-size: var(--font-size-3xl);
 }
-.goThroughGuestReviewsImmedWrapper:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-end;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-10xs) 0px var(--padding-7xs);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.turnGuestReviewsIntoTasksParent {
+.reviewFeatureItems {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
   max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
 }
-.turnGuestReviewsIntoTasksParent:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
-  align-items: flex-end;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.frameDiv {
+.reviewFeatures {
   width: 614px;
   display: flex;
   flex-direction: column;
@@ -435,27 +176,10 @@
   justify-content: flex-start;
   padding: var(--padding-89xl) 0px 0px;
   box-sizing: border-box;
-  min-width: 614;
-  max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-}
-.frameDiv:hover {
-  display: flex;
-  width: 614px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  padding: var(--padding-89xl) 0px 0px;
-  box-sizing: border-box;
-  min-width: 614;
+  min-width: 614px;
   max-width: 100%;
 }
-.reviewTasks1Parent {
+.featuresGrid1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -463,21 +187,6 @@
   justify-content: space-between;
   max-width: 100%;
   gap: var(--gap-xl);
-  width: auto;
-  height: auto;
-  transform: rotate(0deg);
-}
-.reviewTasks1Parent:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-xl);
-  align-items: flex-start;
-  justify-content: space-between;
-  transform: rotate(0deg);
-  max-width: 100%;
 }
 .convertAvailabilityTo {
   margin: 0;
@@ -488,21 +197,6 @@
   line-height: 20px;
   font-weight: 400;
   font-family: inherit;
-  display: flex;
-  width: auto;
-  height: auto;
-}
-.convertAvailabilityTo:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-29xl);
-  letter-spacing: 0.1px;
-  line-height: 20px;
-  text-align: left;
-  color: var(--color-white);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
 }
 .trackOpenNightsContainer1 {
   width: 100%;
@@ -516,19 +210,6 @@
   display: flex;
   align-items: center;
   max-width: 100%;
-  height: auto;
-}
-.trackOpenNightsContainer:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-5xl);
-  letter-spacing: 0.1px;
-  line-height: 20px;
-  text-align: left;
-  color: var(--color-white);
-  display: flex;
-  width: 562px;
-  height: auto;
-  max-width: 100%;
 }
 .convertAvailabilityToBookinParent {
   align-self: stretch;
@@ -538,23 +219,8 @@
   justify-content: flex-start;
   gap: var(--gap-51xl);
   max-width: 100%;
-  width: auto;
-  height: auto;
-  transform: rotate(0deg);
 }
-.convertAvailabilityToBookinParent:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-51xl);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.frameWrapper1 {
+.frameWrapper {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -562,24 +228,7 @@
   justify-content: flex-start;
   padding: var(--padding-105xl) 0px 0px;
   box-sizing: border-box;
-  min-width: 446;
-  max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
-}
-.frameWrapper1:hover {
-  display: flex;
-  flex: 1;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  padding: var(--padding-105xl) 0px 0px;
-  box-sizing: border-box;
-  min-width: 446;
+  min-width: 446px;
   max-width: 100%;
 }
 .booking1Icon {
@@ -588,14 +237,8 @@
   max-height: 100%;
   object-fit: cover;
   max-width: 100%;
-  display: flex;
 }
-.booking1Icon:hover {
-  display: flex;
-  width: 623.8px;
-  max-width: 100%;
-}
-.frameParent1 {
+.frameParent {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -603,21 +246,8 @@
   justify-content: flex-start;
   gap: var(--gap-43xl);
   max-width: 100%;
-  height: auto;
-  transform: rotate(0deg);
 }
-.frameParent1:hover {
-  display: flex;
-  flex: 1;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-43xl);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.page2Inner1 {
+.featuresGrid2 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -626,26 +256,8 @@
   padding: 0px var(--padding-10xs);
   box-sizing: border-box;
   max-width: 100%;
-  width: auto;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
   text-align: left;
   font-size: var(--font-size-29xl);
-}
-.page2Inner1:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-end;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-10xs);
-  box-sizing: border-box;
-  max-width: 100%;
 }
 .local1Icon {
   width: 403.8px;
@@ -653,13 +265,6 @@
   border-radius: var(--br-xl);
   max-height: 100%;
   object-fit: cover;
-  max-width: 100%;
-  display: flex;
-}
-.local1Icon:hover {
-  display: flex;
-  width: 403.8px;
-  border-radius: var(--br-xl);
   max-width: 100%;
 }
 .enhanceGuestExperiences {
@@ -674,19 +279,6 @@
   display: flex;
   align-items: center;
   max-width: 100%;
-  height: auto;
-}
-.enhanceGuestExperiences:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-29xl);
-  letter-spacing: 0.1px;
-  line-height: 20px;
-  text-align: right;
-  color: var(--color-white);
-  display: flex;
-  width: 686px;
-  height: auto;
-  max-width: 100%;
 }
 .suggestLocalRestaurantsContainer {
   align-self: stretch;
@@ -694,21 +286,6 @@
   font-size: var(--font-size-5xl);
   letter-spacing: 0.1px;
   line-height: 20px;
-  display: flex;
-  width: auto;
-  height: auto;
-}
-.suggestLocalRestaurantsContainer:hover {
-  font-family: var(--text-single-200-regular);
-  font-size: var(--font-size-5xl);
-  letter-spacing: 0.1px;
-  line-height: 20px;
-  text-align: right;
-  color: var(--color-white);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
 }
 .enhanceGuestExperiencesParent {
   align-self: stretch;
@@ -718,23 +295,8 @@
   justify-content: flex-start;
   gap: var(--gap-36xl);
   max-width: 100%;
-  width: auto;
-  height: auto;
-  transform: rotate(0deg);
 }
-.enhanceGuestExperiencesParent:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-36xl);
-  align-items: flex-end;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
-.frameWrapper2 {
+.experienceDescriptionContain {
   width: 724px;
   display: flex;
   flex-direction: column;
@@ -742,27 +304,19 @@
   justify-content: flex-start;
   padding: var(--padding-87xl) 0px 0px;
   box-sizing: border-box;
-  min-width: 724;
+  min-width: 724px;
   max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
 }
-.frameWrapper2:hover {
+.localExperienceContainer {
+  flex: 1;
   display: flex;
-  width: 724px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
+  flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  padding: var(--padding-87xl) 0px 0px;
-  box-sizing: border-box;
-  min-width: 724;
+  justify-content: space-between;
   max-width: 100%;
+  gap: var(--gap-xl);
 }
-.page2Inner2 {
+.localExperienceContainerWrapper {
   width: 1275px;
   display: flex;
   flex-direction: row;
@@ -771,24 +325,8 @@
   padding: 0px var(--padding-10xs);
   box-sizing: border-box;
   max-width: 100%;
-  height: auto;
-  gap: var(--gap-0);
-  transform: rotate(0deg);
   text-align: right;
   font-size: var(--font-size-29xl);
-}
-.page2Inner2:hover {
-  display: flex;
-  width: 1275px;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-end;
-  transform: rotate(0deg);
-  padding: 0px var(--padding-10xs);
-  box-sizing: border-box;
-  max-width: 100%;
 }
 .page2 {
   align-self: stretch;
@@ -801,34 +339,177 @@
   box-sizing: border-box;
   gap: var(--gap-215xl);
   max-width: 100%;
-  width: auto;
-  height: auto;
   text-align: center;
   font-size: var(--font-size-27xl);
-  color: var(--color-white);
+  color: var(--white);
   font-family: var(--text-single-200-regular);
 }
-.page2:hover {
-  background: linear-gradient(180deg, #0e2e23, #2d8062);
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-215xl);
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: var(--padding-71xl) var(--padding-57xl) var(--padding-98xl);
-  box-sizing: border-box;
-  max-width: 100%;
-}
 
+@media screen and (max-width: 1400px) {
+  .bookingFeatureItems {
+    flex: 1;
+  }
+
+  .service1Icon {
+    flex: 1;
+  }
+
+  .bookingFeatures {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .reviewTasks1 {
+    flex: 1;
+  }
+
+  .reviewFeatures {
+    flex: 1;
+  }
+
+  .featuresGrid1 {
+    flex-wrap: wrap;
+  }
+
+  .booking1Icon {
+    flex: 1;
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+
+  .local1Icon {
+    flex: 1;
+  }
+
+  .experienceDescriptionContain {
+    flex: 1;
+  }
+
+  .localExperienceContainer {
+    flex-wrap: wrap;
+  }
+
+  .page2 {
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
 @media screen and (max-width: 1200px) {
+  .bookingFeatureItems {
+    min-width: 100%;
+  }
+
+  .experienceDescriptionContain {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .aSoftwareTool {
+    font-size: var(--font-size-10xl);
+  }
+
+  .answerGuestsUsingContainer {
+    font-size: var(--font-size-18xl);
+  }
+
+  .turnGuestReviews {
+    font-size: var(--font-size-18xl);
+  }
+
+  .reviewFeatures {
+    min-width: 100%;
+  }
+
+  .convertAvailabilityTo {
+    font-size: var(--font-size-19xl);
+    line-height: 16px;
+  }
+
+  .convertAvailabilityToBookinParent {
+    gap: var(--gap-16xl);
+  }
+
   .frameWrapper {
     min-width: 100%;
   }
 
-  .frameWrapper2 {
-    min-width: 100%;
+  .frameParent {
+    gap: var(--gap-12xl);
+  }
+
+  .enhanceGuestExperiences {
+    font-size: var(--font-size-19xl);
+    line-height: 16px;
+  }
+
+  .enhanceGuestExperiencesParent {
+    gap: var(--gap-8xl);
+  }
+
+  .page2 {
+    gap: var(--gap-98xl);
+    padding: var(--padding-6xl) var(--padding-19xl) var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aSoftwareTool {
+    font-size: var(--font-size-3xl);
+  }
+
+  .ourCuttingEdgeAiContainer {
+    font-size: var(--text-single-200-regular-size);
+  }
+
+  .answerGuestsUsingContainer {
+    font-size: var(--font-size-9xl);
+  }
+
+  .beItPhone {
+    font-size: var(--text-single-200-regular-size);
+  }
+
+  .turnGuestReviews {
+    font-size: var(--font-size-9xl);
+  }
+
+  .goThroughGuestContainer {
+    font-size: var(--text-single-200-regular-size);
+    line-height: 16px;
+  }
+
+  .convertAvailabilityTo {
+    font-size: var(--font-size-10xl);
+    line-height: 12px;
+  }
+
+  .trackOpenNightsContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+
+  .convertAvailabilityToBookinParent {
+    gap: var(--gap-mid);
+  }
+
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+
+  .enhanceGuestExperiences {
+    font-size: var(--font-size-10xl);
+    line-height: 12px;
+  }
+
+  .suggestLocalRestaurantsContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+
+  .page2 {
+    gap: var(--gap-39xl);
   }
 }
